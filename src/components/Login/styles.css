@@ -1,0 +1,29 @@
+.login-wrapper {
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  padding: 40px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+.login-input {
+  width: 320px;
+}
+.login-row {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.login-title {
+  font-size: 14px;
+  padding: 10px 0;
+}
+.login-main-title {
+  font-size: 24px;
+  font-weight: 600;
+}

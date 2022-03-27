@@ -1,0 +1,25 @@
+{
+  "login": {
+    "name": "Ivan Ivanov"
+  },
+  "logout": {
+    "result": "Successfully logged out"
+  },
+  "contacts": [
+    {
+      "email": "luke19bb1@mail.gal",
+      "name": "Luke Skywalker",
+      "id": 0
+    },
+    {
+      "email": "c3p0@roboyanddex.gal",
+      "name": "C-3PO",
+      "id": 1
+    },
+    {
+      "name": "Darth Vader",
+      "email": "Dart@galaxy.com",
+      "id": 2
+    }
+  ]
+}
