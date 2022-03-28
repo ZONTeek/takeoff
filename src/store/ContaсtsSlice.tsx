@@ -83,14 +83,11 @@ export const selectContacts = (state: RootStateType): Contact[] => {
   if (state.contacts.searchFilter) {
     return state.contacts.contacts.filter((contact) => {
       const filter = state.contacts.searchFilter.toLocaleLowerCase();
-      const nameToCompare = contact.name
-        .substring(0, filter.length)
-        .toLocaleLowerCase();
-      const emailToCompare = contact.email
-        .substring(0, filter.length)
-        .toLocaleLowerCase();
+      const nameToCompare = contact.name.toLocaleLowerCase();
+      const emailToCompare = contact.email.toLocaleLowerCase();
 
-      if (nameToCompare === filter || emailToCompare === filter) return contact;
+      if (nameToCompare.includes(filter) || emailToCompare.includes(filter))
+        return contact;
       return false;
     });
   }

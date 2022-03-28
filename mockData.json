@@ -20,6 +20,11 @@
       "name": "Darth Vader",
       "email": "Dart@galaxy.com",
       "id": 2
+    },
+    {
+      "name": "Anakin Skywalker",
+      "email": "asd@gmail.com",
+      "id": 3
     }
   ]
 }
